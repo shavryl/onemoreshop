@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -123,6 +124,23 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
+# Braintree settings
+BRAINTREE_MERCHANT_ID = '3xfrb2xjbfsnqsjw'  # Merchant ID
+
+BRAINTREE_PUBLIC_KEY = 'cp5vc4kqv5ff7nsj'   # Public Key
+
+BRAINTREE_PRIVATE_KEY = '32f4b65b26b5bd92a26a88e1ee1be2c2'  # Private key
+
+from braintree import Configuration, Environment
+
+Configuration.configure(
+    Environment.Sandbox,
+    BRAINTREE_MERCHANT_ID,
+    BRAINTREE_PUBLIC_KEY,
+    BRAINTREE_PRIVATE_KEY
+)
 
 
 # Static files (CSS, JavaScript, Images)
