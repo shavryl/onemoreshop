@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'braintree',
+    'coupons.apps.CouponsConfig',
 ]
 
 MIDDLEWARE = [
