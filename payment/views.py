@@ -11,7 +11,7 @@ def payment_process(request):
         nonce = request.POST.get('payment_method_nonce', None)
         # create and submit transaction
         result = braintree.Transaction.sale({
-            'amaunt': '{:2.f}'.format(order.get_total_cost()),
+            'amount': '{:.2f}'.format(order.get_total_cost()),
             'payment_method_nonce': nonce,
             'options': {'submit_for_settlement': True}
         })
