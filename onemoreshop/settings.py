@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'payment.apps.PaymentConfig',
     'braintree',
     'coupons.apps.CouponsConfig',
+    'rosetta',
 ]
 
 MIDDLEWARE = [
