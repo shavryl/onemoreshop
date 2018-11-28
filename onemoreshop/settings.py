@@ -1,4 +1,6 @@
 import os
+from braintree import Configuration, Environment
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -109,8 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en'
 
 LANGUAGES = (
-    ('en', 'English'),
-    ('es', 'Spanish'),
+    ('en', _('English')),
+    ('es', _('Spanish')),
 )
 
 LOCALE_PATHS = (
@@ -133,7 +135,6 @@ BRAINTREE_PUBLIC_KEY = 'cp5vc4kqv5ff7nsj'   # Public Key
 
 BRAINTREE_PRIVATE_KEY = '32f4b65b26b5bd92a26a88e1ee1be2c2'  # Private key
 
-from braintree import Configuration, Environment
 
 Configuration.configure(
     Environment.Sandbox,
