@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 09:46+0200\n"
+"POT-Creation-Date: 2018-11-28 10:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,20 +45,20 @@ msgstr "ciudad"
 #: orders/templates/orders/order/create.html:5
 #: orders/templates/orders/order/create.html:9
 msgid "Checkout"
-msgstr ""
+msgstr "Revisa"
 
 #: orders/templates/orders/order/create.html:12
 msgid "Your order"
-msgstr ""
+msgstr "Su pedido"
 
 #: orders/templates/orders/order/create.html:30
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: orders/templates/orders/order/create.html:35
 msgid "Place order"
-msgstr ""
+msgstr "Realizar pedido"
 
 #: orders/urls.py:8
 msgid "create/"
-msgstr ""
+msgstr "crear/"

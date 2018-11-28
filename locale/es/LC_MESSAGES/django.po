@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 09:46+0200\n"
+"POT-Creation-Date: 2018-11-28 10:43+0200\n"
 "PO-Revision-Date: 2018-11-28 07:51+0000\n"
 "Last-Translator: b'  <gavrilchenko.stanislav@gmail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,6 @@ msgid "admin/"
 msgstr "administración/"
 
 #: onemoreshop/urls.py:11
-#| msgid "Coupon"
 msgid "coupons/"
 msgstr "cupones/"
 
@@ -72,22 +71,24 @@ msgstr "cancelado/"
 msgid "one more shop"
 msgstr "una tienda mas"
 
-#: shop/templates/shop/base.html:19
+#: shop/templates/shop/base.html:18
+msgid "Language"
+msgstr "Idioma"
+
+#: shop/templates/shop/base.html:36
 msgid "Your cart"
 msgstr "Su carrito"
 
-#: shop/templates/shop/base.html:21
+#: shop/templates/shop/base.html:38
 #, python-format
 msgid ""
 "\n"
-"            %(total_items)s item%(total_items_plural)s,\n"
-"          $%(total_price)s\n"
-"        "
+"                        %(total_items)s item %(total_items_plural)s,\n"
+"                        $%(total_price)s\n"
+"                    "
 msgstr ""
-"\n"
-"ít"
 
-#: shop/templates/shop/base.html:27
+#: shop/templates/shop/base.html:44
 msgid "Your cart is empty."
 msgstr "Tu carrito esta vacío"
 
