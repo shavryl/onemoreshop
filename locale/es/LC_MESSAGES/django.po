@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 08:58+0200\n"
-"PO-Revision-Date: 2018-11-28 07:10+0000\n"
+"POT-Creation-Date: 2018-11-28 09:46+0200\n"
+"PO-Revision-Date: 2018-11-28 07:51+0000\n"
 "Last-Translator: b'  <gavrilchenko.stanislav@gmail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -27,13 +27,46 @@ msgstr "Cantidad"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: onemoreshop/settings.py:114
+#: onemoreshop/settings.py:115
 msgid "English"
 msgstr "Inglés"
 
-#: onemoreshop/settings.py:115
+#: onemoreshop/settings.py:116
 msgid "Spanish"
 msgstr "Español"
+
+#: onemoreshop/urls.py:10
+msgid "admin/"
+msgstr "administración/"
+
+#: onemoreshop/urls.py:11
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "cupones/"
+
+#: onemoreshop/urls.py:12
+msgid "payment/"
+msgstr "pago/"
+
+#: onemoreshop/urls.py:13
+msgid "orders/"
+msgstr "pedidos/"
+
+#: onemoreshop/urls.py:14
+msgid "cart/"
+msgstr "carro/"
+
+#: payment/urls.py:10
+msgid "process/"
+msgstr "proceso/"
+
+#: payment/urls.py:11
+msgid "done/"
+msgstr "hecho/"
+
+#: payment/urls.py:12
+msgid "canceled/"
+msgstr "cancelado/"
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "one more shop"
@@ -43,7 +76,18 @@ msgstr "una tienda mas"
 msgid "Your cart"
 msgstr "Su carrito"
 
-#: shop/templates/shop/base.html:28
+#: shop/templates/shop/base.html:21
+#, python-format
+msgid ""
+"\n"
+"            %(total_items)s item%(total_items_plural)s,\n"
+"          $%(total_price)s\n"
+"        "
+msgstr ""
+"\n"
+"ít"
+
+#: shop/templates/shop/base.html:27
 msgid "Your cart is empty."
 msgstr "Tu carrito esta vacío"
 
