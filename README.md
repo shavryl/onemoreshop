@@ -3,7 +3,7 @@
 
 hands on subjects:
 - payment with credit card
-- locale, two langues: 
+- locale, two languages: 
               - english,
               - espaniol
 - product recommendation engine with redis
